@@ -235,7 +235,7 @@ const Recipe = ({ route }) => {
         source={
           recipe.user?.image
             ? {
-                uri: `https://recipe.keviniansyah.com/storage/${user.image}`,
+                uri: `https://recipe.keviniansyah.com/storage/${recipe.user.image}`,
               }
             : defaultProfile
         }
