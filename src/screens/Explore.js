@@ -237,8 +237,8 @@ const styles = StyleSheet.create({
     fontSize: 12,
   },
   loadMoreButton: {
-    backgroundColor: '#FF6B00',
-    borderRadius: 10,
+    backgroundColor: '#000',
+    borderRadius: 20,
     marginBottom: 60,
     alignItems: 'center',
     justifyContent: 'center',
